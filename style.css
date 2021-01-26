@@ -1,0 +1,216 @@
+body {
+    font-family: 'Montserrat', sans-serif;;
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(#03817d, #92f0ed);
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#titulo-principal {
+    font-size: 35px;
+    padding: 15px;
+}
+
+#front-end {
+    font-size: 27px;
+}
+
+.caixa {
+    margin-top: 5px;    
+}
+
+.imagem-me {
+    width: 10%;
+    height:8%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 30px 5px #ffffff;
+    margin-top: 12px;
+}
+
+ul {
+    position: relative;
+    bottom: 0px;
+    list-style: none;
+    font-weight: bold;
+    color: #03817d;
+}
+nav li {
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    transition: 500ms;
+    font-size: 20px;
+    transition: 1s;
+}
+
+nav li:hover {
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.imagem-banner {
+    width: 50%;
+    opacity: 0.5;
+}
+
+#banner-centro{
+    position: absolute;
+    display: inline-block;
+    padding: 35px;
+}
+main {
+    background: linear-gradient(#92f0ed, #03817d);
+}
+
+.sobre {
+    text-align: center;
+    font-size: 24px;
+    color: #266184;
+    display: inline-block;
+    margin-top: 2px;
+    width: 40%;
+    padding: 35px 35px 10px 35px;
+    line-height: 1.4em;
+    font-style: italic;
+}
+
+.imagem-foguete {
+    width: 10%;
+    padding: 10px 20px 20px 20px;
+    opacity: 0.8;
+}
+
+.curriculo {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.titulo-curriculo {
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+.curriculo li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px inset #cccccc;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    height: 280px;
+    transition: 1s;
+    text-shadow: 2px 2px #266184;
+}
+
+.curriculo li:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.curriculo li img {
+    margin-top: 10px;
+}
+
+.titulo-contato {
+    font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.logo-whatts {
+    margin-left: 25px;
+}
+
+.formulario h3 {
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+form {
+    margin: 40px 0;
+    text-align: center;
+}
+
+
+
+form label {
+    display: block;
+}
+
+.input-padrao {
+    display: block;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+    color: #ffffff;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px 25px;
+    width: 50%;
+    background: #03817d;
+    border: 2px inset #cccccc;
+    border-radius: 5px;
+}
+
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #03817d;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px inset #cccccc;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: #92f0ed;
+    transform: scale(1.2);
+}
+footer {
+    background-color: #03817d;
+}
+
+.icones li {
+    display: inline-block;
+    width: 05%;
+    vertical-align: bottom;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.icones li:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.icones {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
